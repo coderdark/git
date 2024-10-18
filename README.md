@@ -1,5 +1,9 @@
 # git commands
 
+- Working directory is directory that contains the files of your project
+- Staging area (index, file)
+- Repo is the .git directory
+
 Creating a git repo
 
 ```git init```
