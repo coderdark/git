@@ -1,8 +1,13 @@
 # git commands
 
+Terms
 - Working directory is directory that contains the files of your project
 - Staging area (index, file)
 - Repo is the .git directory
+
+| Description                                                                                                  | Command                                        |
+| ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------- |
+|Creating a git repo                                                                                           | ```git init```                                 |
 
 Creating a git repo
 
