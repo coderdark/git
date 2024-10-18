@@ -16,6 +16,10 @@ Commiting your file changes to the git repo
 
 ```git commit -m 'message for your commit'```
 
-Create an checkout a branch
+To checkout (change) an existent branch
 
-```git checkout -b B```
+```git checkout <branch_name>```
+
+Create and checkout a branch
+
+```git checkout -b <branch_name>```
