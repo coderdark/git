@@ -57,3 +57,9 @@ Rebase Example:
   + Checkout `feature` branch first ```git checkout feature```
   + Then ```git rebase main```
 
+Adding a remote to your local repo (usual <name> is origin
+
+```git remote add <name> <local_path/uri>```
+
+
+
