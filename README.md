@@ -79,7 +79,7 @@ To fetch the remote repo state to your local repo
 
 Getting the files from the remote repo
 
-```git pull 
+```git pull <remote> <branch>```
 
 
 
