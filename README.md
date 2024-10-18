@@ -24,6 +24,10 @@ Commiting your file changes to the git repo
 
 ```git commit -m 'message for your commit'```
 
+Undo a file in the staging area
+
+```git reset <file_name>```
+
 To checkout (change) an existent branch
 
 ```git checkout <branch_name>```
