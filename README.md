@@ -1,4 +1,4 @@
 # git
 
-Creating a git repo
-`git init`
+Creating a git repo:
+```git init```
