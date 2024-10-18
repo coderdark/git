@@ -12,6 +12,10 @@ View the logs with one line (you can view the SHA for each commit)
 
 ```git log --oneline```
 
+View the logs with one line and graph (you can view the SHA for each commit)
+
+```git log --oneline --graph```
+
 Adding a file or all files (then . means all files) to the staging area
 
 ```git add <file_name>``` or ```git add .```
