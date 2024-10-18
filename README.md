@@ -16,4 +16,6 @@ Commiting your file changes to the git repo
 
 ```git commit -m 'message for your commit'```
 
-Rebasing 
+Create an checkout a branch
+
+```git checkout -b B```
