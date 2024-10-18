@@ -8,7 +8,7 @@ Checking the status of the working directory
 
 ```git status```
 
-View the logs with one line
+View the logs with one line (you can view the SHA for each commit)
 
 ```git log --oneline```
 
