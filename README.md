@@ -20,7 +20,9 @@ Terms
 | To checkout (change) an existent branch                                                                      | ```git checkout <branch_name>```                         |
 | Create and checkout a branch                                                                                 | ```git checkout -b <branch_name>```                      |
 | To merge a branch (feature) to another branch (main)                                                         | ```git merge <branch_name>```                            |
-|                                                                                                                Merge Example: + Checkout `main` branch first ```git checkout main``` + Then ```git merge feature```
+|                                                                                                                Merge Example:
+ + Checkout `main` branch first ```git checkout main``` 
+ + Then ```git merge feature```
 
 | To rebase a branch (feature) with another branch (main)
 
