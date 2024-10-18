@@ -7,19 +7,9 @@ Terms
 
 | Description                                                                                                  | Command                                        |
 | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------- |
-|Creating a git repo                                                                                           | ```git init```                                 |
-
-Creating a git repo
-
-```git init```
-
-Finding your .git repo in your working directory
-
-```find .git```
-
-Checking the status of the working directory 
-
-```git status```
+| Creating a git repo                                                                                          | ```git init```                                 |
+| Finding your .git repo in your working directory                                                             | ```find .git```                                |
+| Checking the status of the working directory                                                                 | ```git status```                               |
 
 View the logs with one line (you can view the SHA for each commit)
 
