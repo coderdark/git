@@ -1,4 +1,4 @@
-# git
+# git commands
 
 Creating a git repo
 
@@ -23,3 +23,7 @@ To checkout (change) an existent branch
 Create and checkout a branch
 
 ```git checkout -b <branch_name>```
+
+To merge a branch (feature) to another branch (main)
++ Checkout `main` branch first ```git checkout main```
+
