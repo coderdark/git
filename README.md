@@ -8,6 +8,10 @@ Checking the status of the working directory
 
 ```git status```
 
+View the logs with one line
+
+```git log --oneline```
+
 Adding a file or all files (then . means all files) to the staging area
 
 ```git add <file_name>``` or ```git add .```
@@ -28,8 +32,7 @@ To merge a branch (feature) to another branch (main)
 
 ```git merge <branch_name>```
 
-Example:
+Merge Example:
   + Checkout `main` branch first ```git checkout main```
   + Then ```git merge feature```
-  + The merge will happen
 
