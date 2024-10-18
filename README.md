@@ -44,9 +44,14 @@ Merge Example:
   + Checkout `main` branch first ```git checkout main```
   + Then ```git merge feature```
 
-To rebase a branch (main) to another branch (feature)
+To rebase a branch (feature) with another branch (main)
 
 ```git rebase <branch_name>```
+
+            C2 <- C4 (feature)
+C0 <- C1 <- C2 <- C3 <- C5 (main)
+
+C0 <- C1 <- C2 <- C3 <- C4 (feature after rebase)
 
 Rebase Example:
   + Checkout `feature` branch first ```git checkout feature```
