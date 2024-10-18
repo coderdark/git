@@ -24,7 +24,7 @@ Commiting your file changes to the git repo
 
 ```git commit -m 'message for your commit'```
 
-Undo a file in the staging area
+To undo a file added to the staging area
 
 ```git reset <file_name>```
 
