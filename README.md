@@ -4,6 +4,10 @@ Creating a git repo
 
 ```git init```
 
+Finding your .git repo in your working directory
+
+```find .git```
+
 Checking the status of the working directory 
 
 ```git status```
@@ -60,6 +64,12 @@ Rebase Example:
 Adding a remote to your local repo (usual <name> is origin
 
 ```git remote add <name> <local_path/uri>```
+
+To fetch the remote repo state to your local repo
+
+```git fetch```
+
+
 
 
 
