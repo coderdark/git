@@ -20,6 +20,10 @@ View the logs with one line (you can view the SHA for each commit)
 
 ```git log --oneline```
 
+View the logs of a specific branch with one line (you can view the SHA for each commit)
+
+```git log --oneline <branch_name>```
+
 View the logs with one line and graph (you can view the SHA for each commit)
 
 ```git log --oneline --graph```
@@ -72,6 +76,10 @@ Adding a remote to your local repo (usual <name> is origin
 To fetch the remote repo state to your local repo
 
 ```git fetch```
+
+Getting the files from the remote repo
+
+```git pull 
 
 
 
