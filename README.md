@@ -85,6 +85,10 @@ Rebase Example:
 
 ```git push```
 
+18. Stashing file (temporary)
+
+```git stash -m <message>```
+
 
 
 
