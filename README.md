@@ -77,7 +77,7 @@ To fetch the remote repo state to your local repo
 
 ```git fetch```
 
-Getting the files from the remote repo
+Getting the files from the remote repo. Pull fetches the changes and then it merges them to the local.
 
 ```git pull <remote> <branch>```
 
