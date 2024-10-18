@@ -81,6 +81,10 @@ Getting the files from the remote repo. Pull fetches the changes and then it mer
 
 ```git pull <remote> <branch>```
 
+Sending the files from the local repo. Push fetches the changes and then it merges them to the remote.
+
+```git push```
+
 
 
 
