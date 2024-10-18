@@ -44,3 +44,7 @@ Merge Example:
   + Checkout `main` branch first ```git checkout main```
   + Then ```git merge feature```
 
+To rebase a branch 
+
+```git rebase <branch_name>```
+
