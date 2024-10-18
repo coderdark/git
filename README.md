@@ -48,10 +48,10 @@ To rebase a branch (feature) with another branch (main)
 
 ```git rebase <branch_name>```
 
-            C2 <- C4 (feature)
-C0 <- C1 <- C2 <- C3 <- C5 (main)
+                        C2 <- C4 (feature)
+            C0 <- C1 <- C2 <- C3 <- C5 (main)
 
-C0 <- C1 <- C2 <- C3 <- C4 (feature after rebase)
+            C0 <- C1 <- C2 <- C3 <- C4 (feature after rebase)
 
 Rebase Example:
   + Checkout `feature` branch first ```git checkout feature```
