@@ -11,3 +11,7 @@ Checking the status of the working directory
 Adding a file or all files (then . means all files) to the staging area
 
 ```git add <file_name>``` or ```git add .```
+
+To commit your file changes to the git repo
+
+```git commit -m 'message for your commit'```
