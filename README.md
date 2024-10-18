@@ -28,8 +28,8 @@ To merge a branch (feature) to another branch (main)
 
 ```git merge <branch_name>```
 
-  Example:
-    + Checkout `main` branch first ```git checkout main```
-    + Then ```git merge feature```
-    + The merge will happen
+Example:
+  + Checkout `main` branch first ```git checkout main```
+  + Then ```git merge feature```
+  + The merge will happen
 
