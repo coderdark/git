@@ -19,39 +19,27 @@ Terms
 | Commiting your file changes to the git repo                                                                  | ```git commit -m 'message for your commit'```            |
 | To checkout (change) an existent branch                                                                      | ```git checkout <branch_name>```                         |
 | Create and checkout a branch                                                                                 | ```git checkout -b <branch_name>```                      |
-| To merge a branch (feature) to another branch (main)                                                         | ```git merge <branch_name>```                            |
-|                                                                                                                Merge Example:
+| To merge a branch (feature) to another branch (main)                                                         | ```git merge <branch_name>```  see example below...      |
+| To rebase a branch (feature) with another branch (main)                                                      | ```git rebase <branch_name>``` see example below...      |
+| Adding a remote to your local repo (usual <name> is origin                                                   | ```git remote add <name> <local_path/uri>```             |
+| To fetch the remote repo state to your local repo                                                            | ```git fetch```                                          |
+| Getting the files from the remote repo. Pull fetches the changes and then it merges them to the local.       | ```git pull <remote> <branch>```                         |
+| Sending the files from the local repo. Push fetches the changes and then it merges them to the remote.       | ```git push```                                           |
+
+Merge Example:
  + Checkout `main` branch first ```git checkout main``` 
  + Then ```git merge feature```
 
-| To rebase a branch (feature) with another branch (main)
+   
+Rebase Example:
 
-```git rebase <branch_name>```
-
-                        C2 <- C4 (feature)
+                    C2 <- C4 (feature)
             C0 <- C1 <- C2 <- C3 <- C5 (main)
 
             C0 <- C1 <- C2 <- C3 <- C4 (feature after rebase)
 
-Rebase Example:
   + Checkout `feature` branch first ```git checkout feature```
   + Then ```git rebase main```
-
-| Adding a remote to your local repo (usual <name> is origin
-
-| ```git remote add <name> <local_path/uri>```
-
-| To fetch the remote repo state to your local repo
-
-| ```git fetch```
-
-| Getting the files from the remote repo. Pull fetches the changes and then it merges them to the local.
-
-| ```git pull <remote> <branch>```
-
-| Sending the files from the local repo. Push fetches the changes and then it merges them to the remote.
-
-| ```git push```
 
 
 
