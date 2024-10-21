@@ -1,5 +1,8 @@
 # git commands
 
+For more info in each of the commands you can use the manual ```man```  for each of the commands below.
+Example: ```man git```
+
 Terms
 - Working directory is directory that contains the files of your project
 - Staging area (index, file)
