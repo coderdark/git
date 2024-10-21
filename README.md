@@ -2,6 +2,7 @@
 
 For more info in each of the commands you can use the manual ```man```  for each of the commands below.
 Example: ```man git```
+To search in the manual, make sure you are in search mode (:) and enter /<the_term_you_are_searching_for>.  To navigate between finds, press N to move forward, Shift + N to move backwards.
 
 Terms
 - Working directory is directory that contains the files of your project
