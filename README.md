@@ -23,6 +23,7 @@ Terms
 | To undo changes to a file in the staging area (flags, mixed, soft and hard) mixed default                    | ```git restore --staged <file_name>```                                    |
 | To undo a commit, get the previous id before your commit (get ids by typing `git log --oneline`              | ```git reset <previous_commit_id>```                                      |
 | Commiting your file changes to the git repo                                                                  | ```git commit -m 'message for your commit'```                             |
+| Remove all working directory changes (all files)                                                             | ```git checkout .```                                                      |
 | To checkout (change) an existent branch                                                                      | ```git checkout <branch_name>```                                          |
 | Create and checkout a branch                                                                                 | ```git checkout -b <branch_name>```                                       |
 | To merge a branch (feature) to another branch (main)                                                         | ```git merge <branch_name>```  see example below...                       |
