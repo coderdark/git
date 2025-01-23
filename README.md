@@ -19,7 +19,9 @@ Terms
 | View the logs with one line and graph (you can view the SHA for each commit)                                 | ```git log --oneline --graph```                                           |
 | Adding a file or all files (then . means all files) to the staging area                                      | ```git add <file_name>``` or ```git add .```                              |
 | Stashing file (temporary)                                                                                    | ```git stash -m <message>```                                              |
-| To undo a file added to the staging area                                                                     | ```git reset <file_name>```                                               |
+| To undo changes to a file in working directory (not staged)                                                  | ```git restore <file_name>```                                             |
+| To undo changes to a file in the staging area (flags, mixed, soft and hard) mixed default                    | ```git restore --staged <file_name>```                                    |
+| To undo a commit, get the previous id before your commit (get ids by typing `git log --oneline`              | ```git reset <previous_commit_id>```                                      |
 | Commiting your file changes to the git repo                                                                  | ```git commit -m 'message for your commit'```                             |
 | To checkout (change) an existent branch                                                                      | ```git checkout <branch_name>```                                          |
 | Create and checkout a branch                                                                                 | ```git checkout -b <branch_name>```                                       |
