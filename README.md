@@ -8,6 +8,9 @@ Terms
 - Working directory is directory that contains the files of your project
 - Staging area (index, file)
 - Repo is the .git directory
+- Untracked files are files that git does not control
+- Staged files are files that are added to the staging area with the git add but not commit it yet
+- Commited files are files that were in the stage area and commited with git commit command
 
 | Description                                                                                                  | Command                                                                   |
 | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
